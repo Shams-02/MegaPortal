@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Heebo";
+    @apply text-heading_c
+}
+
+body{
+    background: linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+    @apply text-body_c;
+    font-family: 'Nunito','system-ui';
+}
+
+.btn{
+    @apply h-14 px-6 flex text-heading_c bg-transparent text-sm items-center justify-center border-2 border-primary rounded-lg font-semibold
+    hover:text-white
+    transition-all ease-in-out duration-500
+    uppercase w-fit
+}
+
+.list_item{
+    @apply font-medium text-lg text-heading_c mx-3
+}
+
+.text-stroke{
+    -webkit-text-stroke: 4px transparent;
+}
