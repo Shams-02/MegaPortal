@@ -640,6 +640,11 @@ video {
   margin-right: auto;
 }
 
+.my-20{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .mr-3{
   margin-right: 0.75rem;
 }
@@ -658,6 +663,14 @@ video {
 
 .mb-7{
   margin-bottom: 1.75rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
 }
 
 .flex{
@@ -684,6 +697,10 @@ video {
   height: 100%;
 }
 
+.h-3{
+  height: 0.75rem;
+}
+
 .w-60{
   width: 15rem;
 }
@@ -700,6 +717,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-3{
+  width: 0.75rem;
 }
 
 .max-w-4xl{
@@ -774,6 +795,11 @@ video {
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
 
+.border-primary{
+  --tw-border-opacity: 1;
+  border-color: rgb(204 0 255 / var(--tw-border-opacity));
+}
+
 .bg-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(204 0 255 / var(--tw-bg-opacity));
@@ -795,6 +821,11 @@ video {
 
 .bg-\[\#ffffff08\]{
   background-color: #ffffff08;
+}
+
+.bg-gray-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r{
@@ -852,9 +883,9 @@ video {
   padding-right: 3rem;
 }
 
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-52{
@@ -868,6 +899,14 @@ video {
 
 .pt-12{
   padding-top: 3rem;
+}
+
+.pt-6{
+  padding-top: 1.5rem;
+}
+
+.pb-8{
+  padding-bottom: 2rem;
 }
 
 .text-center{
@@ -981,6 +1020,51 @@ body{
 
 .text-stroke{
   -webkit-text-stroke: 4px transparent;
+}
+
+.card{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  border-width: 1px;
+  border-color: #ffffff26;
+  box-shadow: 0 5px 20px rgb(0 0 0 / 25%);
+}
+
+.badge{
+  display: flex;
+  height: 2.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 1rem;
+  background-color: #ffffff1A;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.circle_badge{
+  position: absolute;
+  top: -0.75rem;
+  left: 2rem;
+  display: flex;
+  height: 1.5rem;
+  width: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #cc00ff;
+  --tw-gradient-to: rgb(204 0 255 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #7000ff;
 }
 
 @media (min-width: 1024px){

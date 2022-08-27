@@ -24,14 +24,41 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".mySwiper_2", {
     effect: "flip",
     loop: "true",
     autoplay: true,
     autoplayTimeout: 3000,
     grabCursor: true,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
     }
-  });
+});
+
+
+
+// owl swiper
+
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    nav: false,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    margin: 20,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 2
+        },
+        1000: {
+            items: 3
+        },
+        1200: {
+            items: 4
+        }
+    }
+})

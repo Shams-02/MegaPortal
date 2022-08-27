@@ -28,3 +28,17 @@ body{
 .text-stroke{
     -webkit-text-stroke: 4px transparent;
 }
+
+.card{
+    @apply border border-border_c rounded-2xl overflow-hidden my-12;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 25%);
+}
+
+.badge{
+    @apply h-10 bg-[#ffffff1A] uppercase font-semibold flex items-center justify-center px-8 w-fit rounded-br-2xl text-base
+}
+
+
+.circle_badge{
+    @apply w-6 h-6 rounded-full bg-gradient-to-r from-primary to-secondry flex items-center justify-center absolute -top-3 left-8
+}
