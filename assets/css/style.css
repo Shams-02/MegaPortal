@@ -15,6 +15,12 @@
   border: 1px solid #cc00ff;
 }
 
+@media (max-width: 1024px) {
+  .swiper-slide{
+    width: 350px;
+    height: 350px;
+  }
+}
 .swiper-slide img {
   display: block;
   width: 100%;

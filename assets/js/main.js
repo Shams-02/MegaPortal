@@ -6,6 +6,7 @@ var swiper = new Swiper(".mySwiper", {
     loop: "true",
     autoplay: true,
     autoplayTimeout: 3000,
+    spaceBetween:20,
     coverflowEffect: {
         rotate: -25,
         stretch: 0,
@@ -54,7 +55,7 @@ $('.owl-carousel').owlCarousel({
         600: {
             items: 2
         },
-        1000: {
+        1024: {
             items: 3
         },
         1200: {

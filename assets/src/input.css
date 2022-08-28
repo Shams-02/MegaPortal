@@ -3,42 +3,64 @@
 @tailwind components;
 @tailwind utilities;
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Heebo";
     @apply text-heading_c
 }
 
-body{
-    background: linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+body {
+    background: linear-gradient(90deg, #1b121d 0, #120f2f 50%, #1b121d 100%);
     @apply text-body_c;
-    font-family: 'Nunito','system-ui';
+    font-family: 'Nunito', 'system-ui';
 }
 
-.btn{
-    @apply h-14 px-6 flex text-heading_c bg-transparent text-sm items-center justify-center border-2 border-primary rounded-lg font-semibold
-    hover:text-white
-    transition-all ease-in-out duration-500
-    uppercase w-fit
+.btn {
+    @apply h-14 px-6 flex text-heading_c bg-transparent text-sm items-center justify-center border-2 border-primary rounded-lg font-semibold hover:text-white transition-all ease-in-out duration-500 uppercase w-fit
 }
 
-.list_item{
+.list_item {
     @apply font-medium text-lg text-heading_c mx-3
 }
 
-.text-stroke{
+.text-stroke {
     -webkit-text-stroke: 4px transparent;
 }
 
-.card{
+.card {
     @apply border border-border_c rounded-2xl overflow-hidden my-12;
     box-shadow: 0 5px 20px rgb(0 0 0 / 25%);
 }
 
-.badge{
+.badge {
     @apply h-10 bg-[#ffffff1A] uppercase font-semibold flex items-center justify-center px-8 w-fit rounded-br-2xl text-base
 }
 
 
-.circle_badge{
+.circle_badge {
     @apply w-6 h-6 rounded-full bg-gradient-to-r from-primary to-secondry flex items-center justify-center absolute -top-3 left-8
+}
+
+.articale_badge {
+    @apply w-12 h-12 bg-black rounded-full overflow-hidden flex items-center justify-center border-2 border-primary mb-3 font-medium
+}
+
+.articale_btn {
+    @apply h-20 w-full
+}
+
+.input {
+    @apply px-7 h-20 text-white text-lg bg-transparent rounded-xl outline-none focus-visible:border-primary transition-all ease-in-out duration-500 w-full
+}
+
+.text_area{
+    @apply h-52 pt-4
+}
+
+.send_btn{
+    @apply h-20 mt-5
 }
