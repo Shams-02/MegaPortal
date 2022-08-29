@@ -61,6 +61,7 @@ body {
     @apply h-52 pt-4
 }
 
-.send_btn{
-    @apply h-20 mt-5
+
+.top_btn{
+    @apply hidden md:block
 }
